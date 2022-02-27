@@ -1,0 +1,18 @@
+{
+  "name": "node-auth-standalone",
+  "version": "1.0.0",
+  "description": "User Authentication (SignUp, Login and Logout) using session and cookies",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ishan Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.3"
+  }
+}
